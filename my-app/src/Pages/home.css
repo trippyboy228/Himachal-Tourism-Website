@@ -1,0 +1,97 @@
+
+
+.heading h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 20px;
+}
+.logo p{
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+.btn{
+ margin-left: 30%;
+  font-weight: bold;
+  background-color: bisque;
+}
+.logo:hover{
+    background-color:beige;
+    box-shadow: 0 o 5px rgba(15, 15, 15, 0.26);
+    transform: translateY(-1vmax);
+    cursor:move;
+}
+.header{
+   font-size: 40px;
+   font-weight: bold;
+}
+.side_img{
+    font-size: 18px;
+    font-style: italic;
+    background-color: lightcoral;
+}
+.side_img:hover{
+    background-color:lightblue;
+}
+.img_card{
+    border-radius: 50%;
+  
+    width:40%;
+    margin:3%;
+    padding: 5px;
+}
+.img_card:hover{
+    box-shadow: 0 o 5px rgba(15, 15, 15, 0.26);
+    transform: translateY(-1vmax);
+}
+
+/* contact us */
+.signup{
+    margin-left: 35%;
+}
+.input_type{
+    
+    display: block;
+    margin: 25px;
+    padding: 7px;
+    width: 300px;
+    border: 1px solid skyblue;
+
+    
+}
+.input_type:hover{
+    color: black;
+    font-size:16px;
+  font-family: cursive;
+  font-style: bold;
+}
+.signup h1{
+    font-size:40px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+}
+.button{
+    margin-left: 3%;
+    width: 100px;
+    padding: 10px;
+}
+.button:hover{
+    color: black;
+     font: size 28px; 
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-style: bold;
+}
+
+
+@media screen and (max-width:780px){
+  .input_type{
+    width:150px;
+    margin:15px;
+  }
+  .signup{
+    margin-left:22% ;
+  }
+}
